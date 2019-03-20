@@ -1,3 +1,9 @@
+
+* {
+  box-sizing: border-box;
+  box-decoration-break: slice;
+}
+
 body {
   background-color: orange;
 }
@@ -9,3 +15,21 @@ h1 {
 h2 {
   color: green;
 }
+
+ .page {
+  display: flex;
+  justify-content: center;
+  align-items: space-around;
+  padding-top: 30;
+
+}
+/* footer {
+  display: block;
+  justify-content: bottom;
+  align-items: space-around;
+  padding-top: 100px;
+  font-size: 10;
+  font-style: oblique;
+  color: black;
+  text-align: left;
+} */
