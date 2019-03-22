@@ -1,11 +1,15 @@
 
-* {
-  box-sizing: border-box;
-  box-decoration-break: slice;
-}
 
-body {
-  background-color: orange;
+.body {
+
+background: url(sansome.jpg);
+background-repeat: no-repeat;
+opacity: 0.5;
+background-size: cover;
+position: inherit;
+display: flow-root;
+padding-top: 400px;
+
 }
 
 h1 {
@@ -23,7 +27,18 @@ h2 {
   padding-top: 30;
 
 }
-/* footer {
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+footer {
   display: block;
   justify-content: bottom;
   align-items: space-around;
@@ -32,4 +47,4 @@ h2 {
   font-style: oblique;
   color: black;
   text-align: left;
-} */
+}
